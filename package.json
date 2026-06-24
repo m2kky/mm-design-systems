@@ -22,10 +22,20 @@
     "pack:dry": "npm pack --dry-run"
   },
   "keywords": [
+    "design",
+    "system",
+    "design-system",
+    "ui",
+    "ux",
+    "frontend",
     "agent-skills",
-    "design-systems",
     "claude-code",
-    "antigravity"
+    "antigravity",
+    "apple-hig",
+    "material-3",
+    "atlassian",
+    "heroui",
+    "liquid-glass"
   ],
   "engines": {
     "node": ">=18"
