@@ -1,0 +1,33 @@
+{
+  "name": "mm-design-systems",
+  "version": "1.0.0",
+  "description": "Portable Agent Skills and CLI for MM Design Systems (HIG, Atlassian, HeroUI, Liquid Glass, Material 3).",
+  "author": "muhammed mekky",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "mm-design-systems": "bin/mm-design-systems.js"
+  },
+  "files": [
+    "plugin.json",
+    "skills/",
+    "scripts/",
+    "bin/",
+    "README.md",
+    "LICENSE",
+    "VERSION"
+  ],
+  "scripts": {
+    "check": "node --check bin/mm-design-systems.js",
+    "pack:dry": "npm pack --dry-run"
+  },
+  "keywords": [
+    "agent-skills",
+    "design-systems",
+    "claude-code",
+    "antigravity"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
