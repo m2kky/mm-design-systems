@@ -1,24 +1,36 @@
-# MM Design Systems
+# 🎨 MM Design Systems
 
-Production-grade Agent Skills Plugin containing the "MM Signature Edition" design guidelines for multiple world-class design systems.
+[![Agent Skills](https://img.shields.io/badge/Agent_Skills-Ready-blue?style=for-the-badge)](https://github.com/m2kky/mm-design-systems)
+[![Version](https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge)](#version)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-It is designed to give AI agents access to strict, premium design standards when creating or updating UI components and layouts.
+A production-grade **Agent Skills Plugin** containing the **"MM Signature Edition"** design guidelines for multiple world-class design systems. 
 
-Built by muhammed mekky.
+It is expertly engineered to give AI agents (like Claude, Gemini, Codex, and Cursor) access to strict, premium design standards when creating or updating UI components and layouts. 
 
-## Included Skills
+Built with ❤️ by **Muhammed Mekky**.
 
-`mm-design-systems` bundles the following skills:
+---
 
-- `mm-hig-design`: Apple Human Interface Guidelines (MM Edition)
-- `mm-atlassian-design`: Atlassian Design System (MM Edition)
-- `mm-heroui-design`: HeroUI Design System (MM Edition)
-- `mm-liquid-glass-design`: Liquid Glass Design System (MM Edition)
-- `mm-material-3-design`: Material 3 Design System (MM Edition)
+## 🌟 Included Design Systems
 
-## Install
+`mm-design-systems` bundles the following high-end skills:
 
-### npm CLI
+| Skill Command | Design System | Description |
+| :--- | :--- | :--- |
+| **`$mm-hig-design`** | Apple HIG | Apple Human Interface Guidelines *(MM Edition)* |
+| **`$mm-atlassian-design`** | Atlassian | Atlassian Design System *(MM Edition)* |
+| **`$mm-heroui-design`** | HeroUI | HeroUI Design System *(MM Edition)* |
+| **`$mm-liquid-glass-design`** | Liquid Glass | Liquid Glass Design System *(MM Edition)* |
+| **`$mm-material-3-design`** | Material 3 | Material 3 Design System *(MM Edition)* |
+
+---
+
+## 🚀 Installation
+
+You can install these skills globally or per-project using our built-in npm CLI tool.
+
+### npm CLI (Recommended)
 
 Install a native skill or adapter with npm:
 
@@ -29,75 +41,66 @@ npx mm-design-systems install antigravity
 npx mm-design-systems install cursor --project .
 ```
 
-Useful commands:
-
-```bash
-npx mm-design-systems paths
-npx mm-design-systems adapters
-```
-
-If the npm package is not available yet, use the GitHub fallback:
+If the npm package is not published yet, you can run it directly from GitHub:
 
 ```bash
 npx github:m2kky/mm-design-systems install claude
 ```
 
-### Native Agent Skills
+### 💻 Native Agent Skills Paths
 
-| Tool | User/global install | Project install | Invoke |
+If you prefer installing manually, here is how they integrate into different agents:
+
+| Agent / Tool | Global Install Path | Project Install Path | How to Invoke |
 | --- | --- | --- | --- |
-| Google Antigravity | `~/.gemini/config/plugins/mm-design-systems` | `.agents/plugins/mm-design-systems` | Ask Antigravity to use MM Design Systems |
-| Claude Code | `~/.claude/skills/mm-*` | `.claude/skills/mm-*` | `/mm-hig-design` etc. |
-| OpenAI Codex | `~/.agents/skills/mm-*` | `.agents/skills/mm-*` | `$mm-hig-design` |
+| **Google Antigravity** | `~/.gemini/config/plugins/mm-design-systems` | `.agents/plugins/mm-design-systems` | Ask to use *MM Design Systems* |
+| **Claude Code** | `~/.claude/skills/mm-*` | `.claude/skills/mm-*` | `/mm-hig-design` etc. |
+| **OpenAI Codex** | `~/.agents/skills/mm-*` | `.agents/skills/mm-*` | `$mm-hig-design` |
 
-macOS/Linux examples (Antigravity):
+*(Note: Our installer script handles placing these folders for you!)*
+
+### 🔌 Rule or Instruction Adapters (Cursor, Copilot, etc.)
+
+Some agents do not load Agent Skills directories natively but rely on rule files (e.g., `.cursor/rules`, `AGENTS.md`). 
+Run the following to automatically generate the required adapter instructions:
 
 ```bash
-git clone https://github.com/m2kky/mm-design-systems.git ~/.gemini/config/plugins/mm-design-systems
+npx mm-design-systems install cursor
+npx mm-design-systems install amazonq
 ```
 
-Windows PowerShell examples (Antigravity):
+---
 
-```powershell
-git clone https://github.com/m2kky/mm-design-systems.git "$env:USERPROFILE\.gemini\config\plugins\mm-design-systems"
-```
+## 💡 Usage Examples
 
-### Rule or Instruction Adapters
+Once installed, simply command your AI agent to apply a specific design system.
 
-Some agents do not load Agent Skills directories natively. Run `npx mm-design-systems install [adapter]` to add the necessary `AGENTS.md` block or `.cursor/rules` files.
+**Apple HIG Example:**
+> "Use `$mm-hig-design` to recreate this iOS settings page following Apple's strict guidelines and MM signature touches."
 
-## Usage
+**Atlassian Example:**
+> "Review this React component dashboard and update it to perfectly match the `$mm-atlassian-design` specifications."
 
-Example prompts:
+---
 
-```text
-Use $mm-hig-design to recreate this settings page following Apple's guidelines.
-```
+## 🛠️ Scaffold Script
 
-```text
-Check if this React component follows the Atlassian guidelines using $mm-atlassian-design.
-```
+The plugin includes a handy Python helper script (inherited from *Project Docs Builder*) to scaffold your project's documentation packs.
 
-## Scaffold Script
-
-The plugin includes a small Python helper to scaffold documentation packs, inherited from Project Docs Builder.
-
-Dry-run:
-
+**Dry-run (Test):**
 ```bash
 python scripts/scaffold_docs_pack.py /path/to/project --level full --dry-run
 ```
 
-Create files:
-
+**Create files:**
 ```bash
 python scripts/scaffold_docs_pack.py /path/to/project --level full
 ```
 
-## Version
+*(Supported levels: `lite`, `full`, `enterprise`)*
 
-Current version: `1.0.0`
+---
 
-## License
+## 📄 License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE) for more details.
