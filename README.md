@@ -1,7 +1,7 @@
 # 🎨 MM Design Systems
 
+[![NPM Version](https://img.shields.io/npm/v/mm-design-systems?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/mm-design-systems)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Ready-blue?style=for-the-badge)](https://github.com/m2kky/mm-design-systems)
-[![Version](https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge)](#version)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 A production-grade **Agent Skills Plugin** for AI Coding Assistants. `mm-design-systems` provides "MM Signature Edition" **Design Guidelines, System Design, UI/UX Principles, and Frontend Architecture** for multiple world-class design systems.
