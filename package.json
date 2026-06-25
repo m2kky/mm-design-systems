@@ -1,7 +1,7 @@
 {
   "name": "mm-design-systems",
   "version": "1.0.0",
-  "description": "Portable Agent Skills and CLI for MM Design Systems (HIG, Atlassian, HeroUI, Liquid Glass, Material 3).",
+  "description": "MM Design Systems: Premium Agent Skills for UI/UX, System Design, Apple HIG, Material 3, and Frontend architecture.",
   "author": "muhammed mekky",
   "license": "MIT",
   "type": "commonjs",

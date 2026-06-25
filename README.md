@@ -4,11 +4,16 @@
 [![Version](https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge)](#version)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-A production-grade **Agent Skills Plugin** containing the **"MM Signature Edition"** design guidelines for multiple world-class design systems. 
+A production-grade **Agent Skills Plugin** for AI Coding Assistants. `mm-design-systems` provides "MM Signature Edition" **Design Guidelines, System Design, UI/UX Principles, and Frontend Architecture** for multiple world-class design systems.
 
-It is expertly engineered to give AI agents (like Claude, Gemini, Codex, and Cursor) access to strict, premium design standards when creating or updating UI components and layouts. 
+It is expertly engineered to give AI agents (like Claude, Gemini, Codex, and Cursor) access to strict, premium design standards when creating or updating UI components and complex frontend layouts. 
 
 Built with ❤️ by **Muhammed Mekky**.
+
+---
+
+## 🎯 About (System Design & UI/UX)
+If you are looking for resources on **system design, UI/UX, frontend architecture, and design systems** for AI agents, you are in the right place! This repository covers everything from typography and spacing to advanced glassmorphism and Material 3 state management.
 
 ---
 
