@@ -1,9 +1,17 @@
 {
   "name": "mm-design-systems",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MM Design Systems: Premium Agent Skills for UI/UX, System Design, Apple HIG, Material 3, and Frontend architecture.",
   "author": "muhammed mekky",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m2kky/mm-design-systems.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m2kky/mm-design-systems/issues"
+  },
+  "homepage": "https://github.com/m2kky/mm-design-systems#readme",
   "type": "commonjs",
   "bin": {
     "mm-design-systems": "bin/mm-design-systems.js"
